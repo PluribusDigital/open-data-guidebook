@@ -9,12 +9,13 @@ This repository collects research on API standards, particularly those focused o
 * HTML
 * JSONP
 
+# Organization-level Data Metadata
+Some organizations have a list of datasets as an API (e.g. http://www.justice.gov/data.json)
+
 # Ambiguity in Standards
 There are some areas where standards are not specific. As we settle on which convention we wish to use, we must decide:
 * Metadata location - in a separate file, or in one JSON object as a peer to the dataset?
 * Naming conventions - dataset-level metadata vs. column definition metadata etc.
-
-## 
 
 ## Conflicting Standards
 =============
