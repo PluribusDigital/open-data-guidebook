@@ -21,9 +21,15 @@ The various best practices, standards, and other materials contain some conflict
 | 18f / API Standards | https://github.com/18F/api-standards |
 | Project Open Data / Common Core Metadata Schema | http://project-open-data.github.io/schema/ |
 | 18f / API all the X | https://github.com/18f/API-All-the-X |
-| api.data.gov | http://api.data.gov/about/ |
+|  |  |
+| Google / Dataset Publishing Language (DSPL) | https://developers.google.com/public-data/ |
 
 ## Reference APIs
 | Source | URL |
 | --- | --- |
 | CFPB / HMDA | http://cfpb.github.io/api/hmda/ |
+
+## API Platforms
+* [CFPB Qu](http://cfpb.github.io/qu/)
+* [api.data.gov](http://api.data.gov/about/)
+* [CKAN](http://ckan.org/)
