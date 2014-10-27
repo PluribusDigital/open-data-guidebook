@@ -40,3 +40,6 @@ The various best practices, standards, and other materials contain some conflict
 * [api.data.gov](http://api.data.gov/about/)
 * [CKAN](http://ckan.org/)
 * [Socrata](http://socrata.com/) - commercial
+ 
+## Additional Tools
+* [Swagger](http://swagger.io/) for API documentation
