@@ -9,6 +9,12 @@ This repository collects research on API standards, particularly those focused o
 * HTML
 * JSONP
 
+## Common Best Practices
+* Entire datasets first (a query API is great, but at a minimum, put out the entire raw dataset)
+
+### API Best Practices
+* Version the API
+
 # Organization-level Data Metadata
 Some organizations have a list of datasets as an API (e.g. http://www.justice.gov/data.json)
 
