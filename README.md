@@ -16,6 +16,7 @@ Some organizations have a list of datasets as an API (e.g. http://www.justice.go
 There are some areas where standards are not specific. As we settle on which convention we wish to use, we must decide:
 * Metadata location - in a separate file, or in one JSON object as a peer to the dataset?
 * Naming conventions - dataset-level metadata vs. column definition metadata etc.
+* Versioning - put version in API url? where? http://api.agency.gov/resource/v1 vs. http://api.agency.gov/v1/resource
 
 ## Conflicting Standards
 The various best practices, standards, and other materials contain some conflicting information. 
@@ -29,6 +30,7 @@ The various best practices, standards, and other materials contain some conflict
 | 18f / API all the X | https://github.com/18f/API-All-the-X |
 | CFPB Qu Data Formats | http://cfpb.github.io/qu/data_formats.html |
 | Google / Dataset Publishing Language (DSPL) | https://developers.google.com/public-data/ |
+| White House API Standards | https://github.com/WhiteHouse/api-standards |
 
 ## Reference APIs
 | Source | URL |
