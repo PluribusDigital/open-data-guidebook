@@ -15,6 +15,7 @@ This repository collects research on API standards, particularly those focused o
 # Surrounding API Recommendations
 * Contact email
 * Github issue tracker to capture Q&A
+* Documentation page (see also http://gsa.github.io/Open-Data-Collaboration-Sandbox/ for forkable github pages examples)
 * Developer blog
 * /developer page
 
