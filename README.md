@@ -12,6 +12,12 @@ This repository collects research on API standards, particularly those focused o
 ## Common Best Practices
 * Entire datasets first (a query API is great, but at a minimum, put out the entire raw dataset)
 
+# Surrounding API Recommendations
+* Contact email
+* Github issue tracker to capture Q&A
+* Developer blog
+* /developer page
+
 ### API Best Practices
 * Version the API
 
