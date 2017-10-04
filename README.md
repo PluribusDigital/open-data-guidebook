@@ -12,7 +12,7 @@ These guidelines work well for the majority of datasets. This is not meant to so
 
 # The Guidelines
 
-In approximate order of priority, the guidelines are as follows and explained below. Generally, the earlier items are also less effort.
+In approximate order of priority, the guidelines are as follows and explained below. Generally, the earlier items are higher value (more important, less effort).
 
 1. Publish bulk data 
 2. Provide a /data.json index file 
@@ -21,10 +21,40 @@ In approximate order of priority, the guidelines are as follows and explained be
 5. Make data available in multiple formats
 6. Document APIs and datasets in a /developer page
 7. Create data browsing applications
-8. Create a github repo for each API
-9. Use API keys 
+8. Market the datasets
+9. Create a github repo for each API
+10. Use API keys 
+
+## 1. Publish bulk data 
+If you do nothing else, make data available. 
+* If you truly must, publish the data in HTML or PDF format. Sharing anything beats sharing nothing.
+* Please also publish the same dataset as CSV. This format is friendly for computers to read, so developers can build applications on top of the data. Also, CSV opens automatically in popular software like Microsoft Excel.
+* Hopefully the data is clean and accurate.
+
+This is simple, and is published as static web content. No coding necessary. You can use whatever current technology the agency has, such as a content management system software (e.g. Drupal).
+
+## 2. Provide a /data.json index file 
+At the root of your web domain, provide a /data.json file (e.g. http://www.justice.gov/data.json). 
+* This allows your datasets to be accessible in the [data.gov directory](https://www.data.gov/about#collected)
+* Update /data.json when datasets are added/changed.
+* See also: [getting your data listed on data.gov], including information on the json format (https://www.digitalgov.gov/resources/how-to-get-your-open-data-on-data-gov/#non-federal-data).
+
+Note: creating a json file seems intimidating to a non-developer, but it is pretty simple once you get the hang of it. You can use any text editor. The free [Atom editor](https://atom.io/) makes it easier still, and you could even use an online editor such as [JSON Editor Online (no endorsement/warranty)](http://jsoneditoronline.org/). *You can do it!*
+
+## 3. Publish dataset definitions/dictionaries
+Describe the data elements (aka columns) contained in each dataset. 
+* At a minimum, provide this as static web content, available along with the links to the raw data.
+* You may alternatively provide a dictionary in CSV format (column title, definition, etc.)
+
+*Note: this is potentially superceded if you create more robust developer/API documentation.*
 
 
+
+
+
+----------
+
+# Appendix
 
 ## Data Formats (in descending order of importance)
 * CSV
@@ -47,7 +77,6 @@ In approximate order of priority, the guidelines are as follows and explained be
 * Version the API
 
 # Organization-level Data Metadata
-Some organizations have a list of datasets as an API (e.g. http://www.justice.gov/data.json)
 
 # Ambiguity in Standards
 There are some areas where standards are not specific. As we settle on which convention we wish to use, we must decide:
@@ -80,10 +109,11 @@ The various best practices, standards, and other materials contain some conflict
 * [CFPB Qu](http://cfpb.github.io/qu/)
 * [api.data.gov](http://api.data.gov/about/)
 * [CKAN](http://ckan.org/)
+* [DKAN](http://getdkan.com/)
 * [Socrata](http://socrata.com/) - commercial
  
 ## Additional Tools
-* [Swagger](http://swagger.io/) for API documentation
+* [Swagger](http://swagger.io/) for interactive API documentation
 
 # Reference Examples of JSON Response Formats
 http://www.justice.gov/api/v1/blog_entries.json?fields=title,created&pagesize=10
