@@ -54,6 +54,17 @@ Any large dataset becomes difficult to consume as a bulk data file. (However, pl
 
 API design is a big subtopic, and is broken out into a separate page: [API Design Guide](APIDESIGN.md).
 
+## 5. Make data available in multiple formats
+
+## 6. Document APIs and datasets in a /developer page
+
+## 7. Create data browsing applications
+
+## 8. Market the datasets
+
+## 9. Create a github repo for each API
+
+## 10. Use API keys 
 
 
 ----------
