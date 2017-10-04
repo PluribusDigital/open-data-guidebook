@@ -12,7 +12,7 @@ These guidelines work well for the majority of datasets. This is not meant to so
 
 # The Guidelines
 
-In approximate order of priority, the guidelines are as follows and explained below. Generally, the earlier items are higher value (more important, less effort).
+In approximate order of priority, the guidelines are as follows and explained below. Generally, the earlier items are higher value (more important, less effort). Many agencies may stop at item 3, and that can be perfectly valid.
 
 1. Publish bulk data 
 2. Provide a /data.json index file 
@@ -29,6 +29,7 @@ In approximate order of priority, the guidelines are as follows and explained be
 If you do nothing else, make data available. 
 * If you truly must, publish the data in HTML or PDF format. Sharing anything beats sharing nothing.
 * Please also publish the same dataset as CSV. This format is friendly for computers to read, so developers can build applications on top of the data. Also, CSV opens automatically in popular software like Microsoft Excel.
+* If someone wants to do something fancy (filter, sort, etc.), they can pull the data into a spreadsheet.
 * Hopefully the data is clean and accurate.
 
 This is simple, and is published as static web content. No coding necessary. You can use whatever current technology the agency has, such as a content management system software (e.g. Drupal).
@@ -48,7 +49,10 @@ Describe the data elements (aka columns) contained in each dataset.
 
 *Note: this is potentially superceded if you create more robust developer/API documentation.*
 
+## 4. Create APIs
+Any large dataset becomes difficult to consume as a bulk data file. (However, please do make even the big datasets available as bulk data.) An API is a software application that allows the data to be queried, generally by another computer/application. 
 
+API design is a big subtopic, and is broken out into a separate page: [API Design Guide](APIDESIGN.md).
 
 
 
@@ -56,15 +60,6 @@ Describe the data elements (aka columns) contained in each dataset.
 
 # Appendix
 
-## Data Formats (in descending order of importance)
-* CSV
-* JSON
-* XML
-* HTML
-* JSONP
-
-## Common Best Practices
-* Entire datasets first (a query API is great, but at a minimum, put out the entire raw dataset)
 
 # Surrounding API Recommendations
 * Contact email
