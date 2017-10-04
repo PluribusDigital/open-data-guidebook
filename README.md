@@ -1,10 +1,34 @@
-# API-standards
-This repository collects research on API standards, particularly those focused on Open Data / Open Government. 
+# Open Data Guidebook
+The concept of Open Data and Open Government have the potential to spur innovation, or at least make it easier to get information. This document intends to provide an opinionated guide on how to get started. The hope is to capture best practices and conventions. 
+
+## Problems This Guide Solves
+In developing a data sharing program, there are dozens of small decisions to be made. There are also a lack of strong conventions for government agencies in the specifics of how to share data. This guide offers a set of baseline decisions that are made for you, that are best practice or very close. 
+
+## Problems This Guide *Does Not* Solve
+This is not a thoughtful consideration of your agency's specific needs. There are any number of reasons to go against the conventions laid out here.
+
+## Assumptions
+These guidelines work well for the majority of datasets. This is not meant to solve the most complex cases (i.e. Census should probably look elsewhere for their core data sets and APIs).
+
+# The Guidelines
+
+In approximate order of priority, the guidelines are as follows and explained below. Generally, the earlier items are also less effort.
+
+1. Publish bulk data 
+2. Provide a /data.json index file 
+3. Publish dataset definitions/dictionaries
+4. Create APIs
+5. Make data available in multiple formats
+6. Document APIs and datasets in a /developer page
+7. Create data browsing applications
+8. Create a github repo for each API
+9. Use API keys 
+
 
 
 ## Data Formats (in descending order of importance)
-* JSON
 * CSV
+* JSON
 * XML
 * HTML
 * JSONP
@@ -44,6 +68,8 @@ The various best practices, standards, and other materials contain some conflict
 | CFPB Qu Data Formats | http://cfpb.github.io/qu/data_formats.html |
 | Google / Dataset Publishing Language (DSPL) | https://developers.google.com/public-data/ |
 | White House API Standards | https://github.com/WhiteHouse/api-standards |
+| JSONAPI Spec | http://jsonapi.org/ | 
+| GRAPHQL Spec | http://graphql.org/ |
 
 ## Reference APIs
 | Source | URL |
